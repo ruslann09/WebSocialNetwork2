@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="continue_step">Continuer</string>
+    <string name="choose_your_gender">Choisissez votre genre</string>
+    <string name="who_are_you_looking_for">Qui cherches-tu?</string>
+    <string name="users_found_nearby">Utilisateurs trouvés à proximité</string>
+    <string name="sign_up">Sinscrire</string>
+    <string name="to_view_the_profile_you_need_to_register">Pour voir le profil, vous devez vous inscrire</string>
+</resources>

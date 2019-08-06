@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="continue_step">Продолжить</string>
+    <string name="choose_your_gender">Выберите ваш пол</string>
+    <string name="who_are_you_looking_for">Кого ищете?</string>
+    <string name="users_found_nearby">Пользователи, найденные поблизости</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="to_view_the_profile_you_need_to_register">Для просмотра профиля нужно зарегистрироватья</string>
+</resources>

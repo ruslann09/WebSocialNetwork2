@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="continue_step">Doorgaan met</string>
+    <string name="choose_your_gender">Kies je geslacht</string>
+    <string name="who_are_you_looking_for">Naar wie ben je op zoek?</string>
+    <string name="users_found_nearby">Gebruikers in de buurt gevonden</string>
+    <string name="sign_up">Inschrijven</string>
+    <string name="to_view_the_profile_you_need_to_register">Om het profiel te bekijken, moet u zich registreren</string>
+</resources>
