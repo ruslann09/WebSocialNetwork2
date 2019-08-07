@@ -49,7 +49,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:layout_marginTop="230dp"
-                app:srcCompat="@drawable/app_icon" />
+                app:srcCompat="@drawable/ic_launcher" />
 
         </RelativeLayout>
 
