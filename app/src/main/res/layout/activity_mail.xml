@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#FFF"
-    tools:context=".activities.AuthStaticActivityed">
+    tools:context=".activities.AuthStaticRenamedActivityed">
 
     <LinearLayout
         android:id="@+id/stub"
@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="50dp"
-                android:text="Dating For Adults"
+                android:text="@string/dating_for_adults"
                 android:gravity="center"
                 android:textColor="@android:color/white"
                 android:textSize="35dp"/>

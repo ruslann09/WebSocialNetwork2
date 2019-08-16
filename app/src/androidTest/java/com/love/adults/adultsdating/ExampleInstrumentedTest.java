@@ -1,4 +1,4 @@
-package com.dating.adults.datingadults;
+package com.love.adults.adultsdating;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

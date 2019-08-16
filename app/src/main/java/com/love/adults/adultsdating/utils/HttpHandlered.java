@@ -1,4 +1,4 @@
-package com.dating.adults.datingadults.utils;
+package com.love.adults.adultsdating.utils;
 
 /**
  * Created by VETRI on 05-03-2017.

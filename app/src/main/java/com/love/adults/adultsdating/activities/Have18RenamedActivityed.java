@@ -1,11 +1,11 @@
-package com.dating.adults.datingadults.activities;
+package com.love.adults.adultsdating.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.dating.adults.datingadults.R;
+import com.love.adults.adultsdating.R;
 
-public class Have18Activityed extends AppCompatActivity {
+public class Have18RenamedActivityed extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

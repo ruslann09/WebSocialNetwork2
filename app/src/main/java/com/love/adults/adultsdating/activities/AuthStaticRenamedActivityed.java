@@ -1,4 +1,4 @@
-package com.dating.adults.datingadults.activities;
+package com.love.adults.adultsdating.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,9 +11,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.dating.adults.datingadults.R;
+import com.love.adults.adultsdating.R;
 
-public class AuthStaticActivityed extends AppCompatActivity {
+public class AuthStaticRenamedActivityed extends AppCompatActivity {
 
     private ImageView selectBtn, male, female;
     private TextView title;
@@ -95,7 +95,7 @@ public class AuthStaticActivityed extends AppCompatActivity {
                     editor.putBoolean("isFirstLogging", true);
                     editor.apply();
 
-                    startActivity(new Intent(getApplicationContext(), Have18Activityed.class));
+                    startActivity(new Intent(getApplicationContext(), Have18RenamedActivityed.class));
                     finish();
                 }
             }

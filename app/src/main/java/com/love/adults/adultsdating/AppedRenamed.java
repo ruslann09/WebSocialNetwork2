@@ -1,10 +1,10 @@
-package com.dating.adults.datingadults;
+package com.love.adults.adultsdating;
 
 import android.app.Application;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
-public class Apped extends Application {
+public class AppedRenamed extends Application {
 
     private FirebaseStorage storage;
     private StorageReference storageReference;
