@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.love.adults.adultsdating">
+    package="com.adultsfind.finder.findadults">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.CAMERA2" />
@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:name="com.love.adults.adultsdating.AppedRenamed"
+        android:name="com.adultsfind.finder.findadults.AppModule"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -19,11 +19,11 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.love.adults.adultsdating.activities.Have18RenamedActivityed"></activity>
-        <activity android:name="com.love.adults.adultsdating.activities.AgeRenamedActivityed" />
-        <activity android:name="com.love.adults.adultsdating.activities.MailRenamedActivityed" />
-        <activity android:name="com.love.adults.adultsdating.activities.AuthStaticRenamedActivityed" />
-        <activity android:name="com.love.adults.adultsdating.activities.SplashScreenRenamedActivityed">
+        <activity android:name="com.adultsfind.finder.findadults.activities.ActivityIsAdult"></activity>
+        <activity android:name="com.adultsfind.finder.findadults.activities.ActivityAge" />
+        <activity android:name="com.adultsfind.finder.findadults.activities.ActivityGetMail" />
+        <activity android:name="com.adultsfind.finder.findadults.activities.ActivityStaticAuthorize" />
+        <activity android:name="com.adultsfind.finder.findadults.activities.ActivityScreenSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
