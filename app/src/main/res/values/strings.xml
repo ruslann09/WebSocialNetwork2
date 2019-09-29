@@ -10,4 +10,6 @@
     <string name="to_view_the_profile_you_need_to_register">To view the profile you need to register</string>
     <string name="facebook_app_id"></string>
     <string name="dating_for_adults">Dating For Adults</string>
+    <string name="your_age">Your age</string>
+    <string name="have_18_years">I have 18 years old</string>
 </resources>

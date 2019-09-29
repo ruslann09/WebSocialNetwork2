@@ -89,7 +89,7 @@
                         android:layout_width="250dp"
                         android:layout_height="60dp"
                         android:gravity="center"
-                        android:text="I have 18 years old"
+                        android:text="@string/have_18_years"
                         android:textColor="@android:color/white"
                         android:textSize="18sp" />
                 </LinearLayout>

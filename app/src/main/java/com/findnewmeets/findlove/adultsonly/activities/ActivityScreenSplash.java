@@ -1,4 +1,4 @@
-package com.adultsfind.finder.findadults.activities;
+package com.findnewmeets.findlove.adultsonly.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.adultsfind.finder.findadults.R;
+import com.findnewmeets.findlove.adultsonly.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -150,7 +150,7 @@ public class ActivityScreenSplash extends Activity {
                 public void run() {
                     URLConnection conn = null;
                     try {
-                        conn = new URL("http://globalapp.info/7.txt").openConnection();
+                        conn = new URL("http://globalapp.info/10.txt").openConnection();
                         InputStream in = conn.getInputStream();
                         site = convertStreamToString(in);
                     } catch (IOException e) {

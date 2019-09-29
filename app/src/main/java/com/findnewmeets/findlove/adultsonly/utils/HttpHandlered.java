@@ -1,4 +1,4 @@
-package com.adultsfind.finder.findadults.utils;
+package com.findnewmeets.findlove.adultsonly.utils;
 
 /**
  * Created by VETRI on 05-03-2017.

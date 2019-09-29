@@ -11,7 +11,7 @@
     <ImageView
         android:id="@+id/splash"
         android:layout_width="250dp"
-        android:layout_height="200dp"
+        android:layout_height="220dp"
         android:layout_gravity="center"
         android:background="@drawable/ic_launcher" />
 

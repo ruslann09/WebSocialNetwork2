@@ -1,4 +1,4 @@
-package com.adultsfind.finder.findadults.activities;
+package com.findnewmeets.findlove.adultsonly.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.adultsfind.finder.findadults.R;
+import com.findnewmeets.findlove.adultsonly.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

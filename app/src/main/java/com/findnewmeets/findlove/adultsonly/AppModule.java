@@ -1,4 +1,4 @@
-package com.adultsfind.finder.findadults;
+package com.findnewmeets.findlove.adultsonly;
 
 import android.app.Application;
 import com.google.firebase.storage.FirebaseStorage;

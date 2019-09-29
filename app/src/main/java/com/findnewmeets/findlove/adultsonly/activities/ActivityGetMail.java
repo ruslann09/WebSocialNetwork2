@@ -1,4 +1,4 @@
-package com.adultsfind.finder.findadults.activities;
+package com.findnewmeets.findlove.adultsonly.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.adultsfind.finder.findadults.R;
+import com.findnewmeets.findlove.adultsonly.R;
 
 public class ActivityGetMail extends AppCompatActivity {
 

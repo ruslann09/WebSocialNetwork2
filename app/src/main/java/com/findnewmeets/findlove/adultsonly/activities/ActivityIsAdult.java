@@ -1,9 +1,9 @@
-package com.adultsfind.finder.findadults.activities;
+package com.findnewmeets.findlove.adultsonly.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.adultsfind.finder.findadults.R;
+import com.findnewmeets.findlove.adultsonly.R;
 
 public class ActivityIsAdult extends AppCompatActivity {
 

@@ -6,4 +6,11 @@
     <string name="users_found_nearby">Utenti trovati nelle vicinanze</string>
     <string name="sign_up">Iscriviti</string>
     <string name="to_view_the_profile_you_need_to_register">Per visualizzare il profilo è necessario registrarsi</string>
+
+    <string name="app_name">Ricerca incontri</string>
+    <string name="input">Ingresso</string>
+    <string name="dating_for_adults">Incontri per adulti</string>
+
+    <string name="your_age">Della tua età</string>
+    <string name="have_18_years">Ho 18 anni</string>
 </resources>

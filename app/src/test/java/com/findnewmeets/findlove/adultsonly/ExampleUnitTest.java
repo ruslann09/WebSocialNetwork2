@@ -1,4 +1,4 @@
-package com.adultsfind.finder.findadults;
+package com.findnewmeets.findlove.adultsonly;
 
 import org.junit.Test;
 
