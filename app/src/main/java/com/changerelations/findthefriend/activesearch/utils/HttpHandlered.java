@@ -1,4 +1,4 @@
-package com.inlockbestfriend.lovecenterpub.findbestfriend.utils;
+package com.changerelations.findthefriend.activesearch.utils;
 
 /**
  * Created by VETRI on 05-03-2017.

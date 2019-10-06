@@ -1,4 +1,4 @@
-package com.inlockbestfriend.lovecenterpub.findbestfriend;
+package com.changerelations.findthefriend.activesearch;
 
 import android.app.Application;
 import com.google.firebase.storage.FirebaseStorage;

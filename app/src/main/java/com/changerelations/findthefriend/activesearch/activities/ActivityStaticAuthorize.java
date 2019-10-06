@@ -1,4 +1,4 @@
-package com.inlockbestfriend.lovecenterpub.findbestfriend.activities;
+package com.changerelations.findthefriend.activesearch.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.inlockbestfriend.lovecenterpub.findbestfriend.R;
+import com.changerelations.findthefriend.activesearch.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

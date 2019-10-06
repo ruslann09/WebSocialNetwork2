@@ -1,4 +1,4 @@
-package com.inlockbestfriend.lovecenterpub.findbestfriend;
+package com.changerelations.findthefriend.activesearch;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

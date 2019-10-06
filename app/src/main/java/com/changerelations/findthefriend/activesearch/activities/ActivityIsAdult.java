@@ -1,9 +1,9 @@
-package com.inlockbestfriend.lovecenterpub.findbestfriend.activities;
+package com.changerelations.findthefriend.activesearch.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.inlockbestfriend.lovecenterpub.findbestfriend.R;
+import com.changerelations.findthefriend.activesearch.R;
 
 public class ActivityIsAdult extends AppCompatActivity {
 

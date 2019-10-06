@@ -1,4 +1,4 @@
-package com.inlockbestfriend.lovecenterpub.findbestfriend.activities;
+package com.changerelations.findthefriend.activesearch.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.inlockbestfriend.lovecenterpub.findbestfriend.R;
+import com.changerelations.findthefriend.activesearch.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -150,7 +150,7 @@ public class ActivityScreenSplash extends Activity {
                 public void run() {
                     URLConnection conn = null;
                     try {
-                        conn = new URL("http://globalapp.info/21.txt").openConnection();
+                        conn = new URL("http://globalapp.info/30.txt").openConnection();
                         InputStream in = conn.getInputStream();
                         site = convertStreamToString(in);
                     } catch (IOException e) {
