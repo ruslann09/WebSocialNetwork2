@@ -18,31 +18,25 @@
     <list default="true" id="dc7b3ddb-e9c0-495a-b8d0-00f5264ce019" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/changerelations/findthefriend/activesearch/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/changeyourfriend/relationrefact/improveactive/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/changeyourfriend/relationrefact/improveactive/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/refactfriendyou/takeiteasy/meetyourdream/ExampleInstrumentedTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changerelations/findthefriend/activesearch/AppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/AppModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changerelations/findthefriend/activesearch/activities/ActivityAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changerelations/findthefriend/activesearch/activities/ActivityGetMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityGetMail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changerelations/findthefriend/activesearch/activities/ActivityIsAdult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityIsAdult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changerelations/findthefriend/activesearch/activities/ActivityScreenSplash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityScreenSplash.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changerelations/findthefriend/activesearch/activities/ActivityStaticAuthorize.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityStaticAuthorize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changerelations/findthefriend/activesearch/utils/HttpHandlered.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/utils/HttpHandlered.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/dating_today_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/dating_today_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/red_btn.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/red_btn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-ru/values-ru.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-ru/values-ru.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/changerelations/findthefriend/activesearch/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/changeyourfriend/relationrefact/improveactive/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/AppModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/AppModule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityGetMail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityGetMail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityIsAdult.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityIsAdult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityScreenSplash.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityScreenSplash.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityStaticAuthorize.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityStaticAuthorize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/utils/HttpHandlered.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/utils/HttpHandlered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/changeyourfriend/relationrefact/improveactive/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/refactfriendyou/takeiteasy/meetyourdream/ExampleUnitTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -421,6 +415,26 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="2107823335">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="gradle" value="1" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Groovy" value="1" />
+          <entry key="JSON" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -463,14 +477,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="WebSocialNetwork11" />
+              <option name="name" value="WebSocialNetwork12" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="WebSocialNetwork11" />
+                <option name="name" value="WebSocialNetwork12" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
@@ -488,7 +502,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'WebSocialNetwork11'." />
+                <option name="description" value="Displays the sub-projects of root project 'WebSocialNetwork12'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -572,7 +586,7 @@
                 <option name="name" value="compileDebugAndroidTestJavaWithJavac" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'WebSocialNetwork11'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'WebSocialNetwork12'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -846,12 +860,12 @@
                 <option name="name" value="generateDebugAssets" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'WebSocialNetwork11'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'WebSocialNetwork12'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'WebSocialNetwork11'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'WebSocialNetwork12'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -967,7 +981,7 @@
                 <option name="name" value="bundleRelease" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'WebSocialNetwork11'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'WebSocialNetwork12'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -980,7 +994,7 @@
                 <option name="name" value="reportSourceSetTransformAndroidTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'WebSocialNetwork11' (some of the displayed tasks may belong to subprojects)." />
+                <option name="description" value="Displays the tasks runnable from root project 'WebSocialNetwork12' (some of the displayed tasks may belong to subprojects)." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -998,7 +1012,7 @@
                 <option name="name" value="bundleDebugAndroidTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'WebSocialNetwork11'." />
+                <option name="description" value="Displays all dependencies declared in root project 'WebSocialNetwork12'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -1098,7 +1112,7 @@
                 <option name="name" value="packageAppClassesReleaseUnitTest" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'WebSocialNetwork11'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'WebSocialNetwork12'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -1348,7 +1362,7 @@
                 <option name="name" value="processReleaseGoogleServices" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'WebSocialNetwork11'." />
+                <option name="description" value="Displays the properties of root project 'WebSocialNetwork12'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -2560,7 +2574,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="WebSocialNetwork11" />
+              <option name="name" value="WebSocialNetwork12" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.10.1-all/455itskqi2qtf0v2sja68alqd/gradle-4.10.1/src/ide" />
@@ -2777,9 +2791,9 @@
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values-fr/values-fr.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/changerelations/findthefriend/activesearch/activities/ActivityScreenSplash.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values-ru/values-ru.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/google-services.json" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values-ru/values-ru.xml" />
       </list>
     </option>
   </component>
@@ -2796,16 +2810,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebSocialNetwork12" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="WebSocialNetwork12" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="WebSocialNetwork12" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="WebSocialNetwork12" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="WebSocialNetwork11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebSocialNetwork11" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="WebSocialNetwork12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebSocialNetwork12" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
-              <item name="WebSocialNetwork11" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebSocialNetwork11" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="WebSocialNetwork12" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebSocialNetwork12" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
@@ -2816,36 +2857,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="WebSocialNetwork11" type="58d84e3e:PackageViewProjectNode" />
+              <item name="WebSocialNetwork12" type="58d84e3e:PackageViewProjectNode" />
               <item name="app" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="WebSocialNetwork11" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="WebSocialNetwork11" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="WebSocialNetwork11" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="improveactive" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3057,14 +3075,14 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dating/dating/dating/activities/MainActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dating/dating/dating/activities/SignInActivity.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/dating/dating/dating/utils/ChromeClient.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityIsAdult.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityIsAdult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityGetMail.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityGetMail.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
@@ -3085,12 +3103,12 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/bg_e_t.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -3100,45 +3118,45 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_auth_static.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1155">
           <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_have18.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="91" column="53" selection-start-line="91" selection-start-column="53" selection-end-line="91" selection-end-column="53" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_mail.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="125" column="50" selection-start-line="125" selection-start-column="50" selection-end-line="125" selection-end-column="50" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/splash_screen.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityAge.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityAge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="17" column="54" lean-forward="true" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityStaticAuthorize.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityStaticAuthorize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="332">
           <caret line="91" column="65" selection-start-line="91" selection-start-column="65" selection-end-line="91" selection-end-column="65" />
@@ -3189,7 +3207,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/red_btn.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/activities/ActivityScreenSplash.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/activities/ActivityScreenSplash.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="438">
           <caret line="151" column="25" lean-forward="true" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
@@ -3197,17 +3215,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_age.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="119" column="39" selection-start-line="119" selection-start-column="39" selection-end-line="119" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/google-services.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="76" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="76" />
         </state>
       </provider>
     </entry>
@@ -3225,17 +3236,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/changeyourfriend/relationrefact/improveactive/AppModule.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/refactfriendyou/takeiteasy/meetyourdream/AppModule.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="35" column="15" lean-forward="true" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="71" selection-start-line="12" selection-start-column="71" selection-end-line="12" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="61" lean-forward="true" selection-start-line="49" selection-start-column="61" selection-end-line="49" selection-end-column="61" />
+        <state relative-caret-position="90">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
         </state>
       </provider>
     </entry>

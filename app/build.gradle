@@ -4,7 +4,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.changeyourfriend.relationrefact.improveactive"
+        applicationId "com.refactfriendyou.takeiteasy.meetyourdream"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

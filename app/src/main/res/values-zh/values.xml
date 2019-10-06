@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="continue_step">继续</string>
+    <string name="choose_your_gender">选择你的性别</string>
+    <string name="who_are_you_looking_for">你在找谁</string>
+    <string name="users_found_nearby">用户在附近找到</string>
+    <string name="sign_up">报名</string>
+    <string name="to_view_the_profile_you_need_to_register">要查看个人资料，您需要注册</string>
+
+    <string name="app_name">约会约会</string>
+    <string name="dating_for_adults">成人约会</string>
+    <string name="your_age">你的年龄</string>
+    <string name="have_18_years">我今年18岁</string>
+</resources>
