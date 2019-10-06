@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.changerelations.findthefriend.activesearch">
+    package="com.changeyourfriend.relationrefact.improveactive">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.CAMERA2" />
@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:name="com.changerelations.findthefriend.activesearch.AppModule"
+        android:name="com.changeyourfriend.relationrefact.improveactive.AppModule"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -19,11 +19,11 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.changerelations.findthefriend.activesearch.activities.ActivityIsAdult"></activity>
-        <activity android:name="com.changerelations.findthefriend.activesearch.activities.ActivityAge" />
-        <activity android:name="com.changerelations.findthefriend.activesearch.activities.ActivityGetMail" />
-        <activity android:name="com.changerelations.findthefriend.activesearch.activities.ActivityStaticAuthorize" />
-        <activity android:name="com.changerelations.findthefriend.activesearch.activities.ActivityScreenSplash">
+        <activity android:name="com.changeyourfriend.relationrefact.improveactive.activities.ActivityIsAdult"></activity>
+        <activity android:name="com.changeyourfriend.relationrefact.improveactive.activities.ActivityAge" />
+        <activity android:name="com.changeyourfriend.relationrefact.improveactive.activities.ActivityGetMail" />
+        <activity android:name="com.changeyourfriend.relationrefact.improveactive.activities.ActivityStaticAuthorize" />
+        <activity android:name="com.changeyourfriend.relationrefact.improveactive.activities.ActivityScreenSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

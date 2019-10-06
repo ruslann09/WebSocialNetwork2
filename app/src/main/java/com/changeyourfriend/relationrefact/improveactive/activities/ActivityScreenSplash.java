@@ -1,4 +1,4 @@
-package com.changerelations.findthefriend.activesearch.activities;
+package com.changeyourfriend.relationrefact.improveactive.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -30,7 +30,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.changerelations.findthefriend.activesearch.R;
+import com.changeyourfriend.relationrefact.improveactive.R;
 
 import java.io.BufferedReader;
 import java.io.File;

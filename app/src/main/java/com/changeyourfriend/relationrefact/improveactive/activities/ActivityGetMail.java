@@ -1,4 +1,4 @@
-package com.changerelations.findthefriend.activesearch.activities;
+package com.changeyourfriend.relationrefact.improveactive.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.changerelations.findthefriend.activesearch.R;
+import com.changeyourfriend.relationrefact.improveactive.R;
 
 public class ActivityGetMail extends AppCompatActivity {
 

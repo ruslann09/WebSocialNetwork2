@@ -1,9 +1,9 @@
-package com.changerelations.findthefriend.activesearch.activities;
+package com.changeyourfriend.relationrefact.improveactive.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.changerelations.findthefriend.activesearch.R;
+import com.changeyourfriend.relationrefact.improveactive.R;
 
 public class ActivityIsAdult extends AppCompatActivity {
 

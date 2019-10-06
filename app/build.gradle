@@ -4,7 +4,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.changerelations.findthefriend.activesearch"
+        applicationId "com.changeyourfriend.relationrefact.improveactive"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

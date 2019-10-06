@@ -1,4 +1,4 @@
-package com.changerelations.findthefriend.activesearch.activities;
+package com.changeyourfriend.relationrefact.improveactive.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.changerelations.findthefriend.activesearch.R;
+import com.changeyourfriend.relationrefact.improveactive.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

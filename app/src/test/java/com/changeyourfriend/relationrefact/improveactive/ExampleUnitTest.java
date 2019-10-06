@@ -1,4 +1,4 @@
-package com.changerelations.findthefriend.activesearch;
+package com.changeyourfriend.relationrefact.improveactive;
 
 import org.junit.Test;
 

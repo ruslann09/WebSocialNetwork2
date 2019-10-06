@@ -6,4 +6,9 @@
     <string name="users_found_nearby">Пользователи, найденные поблизости</string>
     <string name="sign_up">Регистрация</string>
     <string name="to_view_the_profile_you_need_to_register">Для просмотра профиля нужно зарегистрироватья</string>
+
+    <string name="app_name">Знакомства</string>
+    <string name="dating_for_adults">Знакомства для взрослых</string>
+    <string name="your_age">Ваш возраст</string>
+    <string name="have_18_years">Мне есть 18 лет</string>
 </resources>

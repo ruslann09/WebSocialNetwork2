@@ -1,4 +1,4 @@
-package com.changerelations.findthefriend.activesearch.utils;
+package com.changeyourfriend.relationrefact.improveactive.utils;
 
 /**
  * Created by VETRI on 05-03-2017.
