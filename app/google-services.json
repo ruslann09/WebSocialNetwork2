@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "386927129031",
-    "firebase_url": "https://dating-cd16c.firebaseio.com",
-    "project_id": "dating-cd16c",
-    "storage_bucket": "dating-cd16c.appspot.com"
+    "project_number": "1018005262536",
+    "firebase_url": "https://cliner-rezerv.firebaseio.com",
+    "project_id": "cliner-rezerv",
+    "storage_bucket": "cliner-rezerv.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:386927129031:android:d7e20f60c33f7f43",
+        "mobilesdk_app_id": "1:1018005262536:android:4587e0e0f042119a3215fd",
         "android_client_info": {
-          "package_name": "com.findnewmeets.findlove.adultsonly"
+          "package_name": "com.inlockbestfriend.lovecenterpub.findbestfriend"
         }
       },
       "oauth_client": [
         {
-          "client_id": "386927129031-tf0is6qn5o4jt8j6j1gdqortver4041d.apps.googleusercontent.com",
+          "client_id": "1018005262536-lkn50dfnq5brcqu1ecnmjl758e5crvg8.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBoXgCjNvF5S3eiciIHMTG6EPjT5pb8mz4"
+          "current_key": "AIzaSyB6Y6P-5hWejGE5SuWuBAR3opZMtrB2rkA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "386927129031-tf0is6qn5o4jt8j6j1gdqortver4041d.apps.googleusercontent.com",
+              "client_id": "1018005262536-lkn50dfnq5brcqu1ecnmjl758e5crvg8.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
