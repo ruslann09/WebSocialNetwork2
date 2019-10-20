@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WebSocialNetwork13.iml" filepath="$PROJECT_DIR$/WebSocialNetwork13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebSocialNetwork14.iml" filepath="$PROJECT_DIR$/WebSocialNetwork14.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
