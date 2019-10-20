@@ -1,4 +1,4 @@
-package com.refactfriendyou.takeiteasy.meetyourdream.activities;
+package com.reflecttoyou.makesomefriend.selectyourdream.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.refactfriendyou.takeiteasy.meetyourdream.R;
+import com.reflecttoyou.makesomefriend.selectyourdream.R;
 
 public class ActivityAge extends AppCompatActivity {
 

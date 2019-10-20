@@ -1,9 +1,9 @@
-package com.refactfriendyou.takeiteasy.meetyourdream.activities;
+package com.reflecttoyou.makesomefriend.selectyourdream.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.refactfriendyou.takeiteasy.meetyourdream.R;
+import com.reflecttoyou.makesomefriend.selectyourdream.R;
 
 public class ActivityIsAdult extends AppCompatActivity {
 

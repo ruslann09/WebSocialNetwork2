@@ -1,4 +1,4 @@
-package com.refactfriendyou.takeiteasy.meetyourdream;
+package com.reflecttoyou.makesomefriend.selectyourdream;
 
 import org.junit.Test;
 

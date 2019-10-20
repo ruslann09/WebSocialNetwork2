@@ -1,4 +1,4 @@
-package com.refactfriendyou.takeiteasy.meetyourdream;
+package com.reflecttoyou.makesomefriend.selectyourdream;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

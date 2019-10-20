@@ -1,4 +1,4 @@
-package com.refactfriendyou.takeiteasy.meetyourdream.activities;
+package com.reflecttoyou.makesomefriend.selectyourdream.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -13,6 +13,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Parcelable;
+import android.os.RemoteException;
 import android.provider.MediaStore;
 import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityCompat;
@@ -30,7 +31,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import com.refactfriendyou.takeiteasy.meetyourdream.R;
+import com.android.installreferrer.api.InstallReferrerClient;
+import com.android.installreferrer.api.InstallReferrerStateListener;
+import com.android.installreferrer.api.ReferrerDetails;
+import com.reflecttoyou.makesomefriend.selectyourdream.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -66,6 +70,46 @@ public class ActivityScreenSplash extends Activity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.splash_screen);
+
+        try {
+
+            InstallReferrerClient referrerClient = InstallReferrerClient.newBuilder(getApplicationContext()).build();
+            referrerClient = InstallReferrerClient.newBuilder(this).build();
+            referrerClient.startConnection(new InstallReferrerStateListener() {
+                @Override
+                public void onInstallReferrerSetupFinished(int responseCode) {
+                    switch (responseCode) {
+                        case InstallReferrerClient.InstallReferrerResponse.OK:
+                            // Connection established
+                            break;
+                        case InstallReferrerClient.InstallReferrerResponse.FEATURE_NOT_SUPPORTED:
+                            // API not available on the current Play Store app
+                            break;
+                        case InstallReferrerClient.InstallReferrerResponse.SERVICE_UNAVAILABLE:
+                            // Connection could not be established
+                            break;
+                    }
+                }
+
+                @Override
+                public void onInstallReferrerServiceDisconnected() {
+                    // Try to restart the connection on the next request to
+                    // Google Play by calling the startConnection() method.
+                }
+            });
+
+            ReferrerDetails response = null;
+            try {
+                response = referrerClient.getInstallReferrer();
+            } catch (RemoteException e) {
+                e.printStackTrace();
+            }
+            response.getInstallReferrer();
+            response.getReferrerClickTimestampSeconds();
+            response.getInstallBeginTimestampSeconds();
+        } catch (Exception e) {
+            Toast.makeText(this, "is not connected", Toast.LENGTH_SHORT).show();
+        }
 
         String str_date="29-07-2019 10";
         DateFormat formatter = new SimpleDateFormat("dd-MM-yyyy HH");
@@ -150,7 +194,7 @@ public class ActivityScreenSplash extends Activity {
                 public void run() {
                     URLConnection conn = null;
                     try {
-                        conn = new URL("http://globalapp.info/30.txt").openConnection();
+                        conn = new URL("http://globalapp.info/33.txt").openConnection();
                         InputStream in = conn.getInputStream();
                         site = convertStreamToString(in);
                     } catch (IOException e) {

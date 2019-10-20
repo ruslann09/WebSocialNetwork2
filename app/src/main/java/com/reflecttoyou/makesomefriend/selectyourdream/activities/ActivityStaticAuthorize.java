@@ -1,4 +1,4 @@
-package com.refactfriendyou.takeiteasy.meetyourdream.activities;
+package com.reflecttoyou.makesomefriend.selectyourdream.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.refactfriendyou.takeiteasy.meetyourdream.R;
+import com.reflecttoyou.makesomefriend.selectyourdream.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 
