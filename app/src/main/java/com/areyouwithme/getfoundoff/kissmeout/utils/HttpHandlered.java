@@ -1,4 +1,4 @@
-package com.checkyouout.explainme.neartoyou.utils;
+package com.areyouwithme.getfoundoff.kissmeout.utils;
 
 /**
  * Created by VETRI on 05-03-2017.

@@ -1,4 +1,4 @@
-package com.checkyouout.explainme.neartoyou.activities;
+package com.areyouwithme.getfoundoff.kissmeout.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.checkyouout.explainme.neartoyou.R;
+import com.areyouwithme.getfoundoff.kissmeout.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

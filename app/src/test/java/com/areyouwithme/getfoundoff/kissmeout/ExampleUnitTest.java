@@ -1,4 +1,4 @@
-package com.checkyouout.explainme.neartoyou;
+package com.areyouwithme.getfoundoff.kissmeout;
 
 import org.junit.Test;
 

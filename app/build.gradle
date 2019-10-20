@@ -4,7 +4,7 @@ apply plugin: 'com.google.gms.google-services'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.checkyouout.explainme.neartoyou"
+        applicationId "com.areyouwithme.getfoundoff.kissmeout"
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1

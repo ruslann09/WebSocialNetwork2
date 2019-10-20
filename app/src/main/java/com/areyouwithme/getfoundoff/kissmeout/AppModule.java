@@ -1,4 +1,4 @@
-package com.checkyouout.explainme.neartoyou;
+package com.areyouwithme.getfoundoff.kissmeout;
 
 import android.app.Application;
 import com.google.firebase.storage.FirebaseStorage;
