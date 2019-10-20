@@ -1,4 +1,4 @@
-package com.getsutisfact.requestme.escapewithme;
+package com.checkyouout.explainme.neartoyou;
 
 import org.junit.Test;
 

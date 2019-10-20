@@ -1,4 +1,4 @@
-package com.getsutisfact.requestme.escapewithme.activities;
+package com.checkyouout.explainme.neartoyou.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.getsutisfact.requestme.escapewithme.R;
+import com.checkyouout.explainme.neartoyou.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

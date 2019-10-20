@@ -1,4 +1,4 @@
-package com.getsutisfact.requestme.escapewithme;
+package com.checkyouout.explainme.neartoyou;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

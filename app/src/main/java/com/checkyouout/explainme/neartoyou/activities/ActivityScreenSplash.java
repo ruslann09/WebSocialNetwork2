@@ -1,4 +1,4 @@
-package com.getsutisfact.requestme.escapewithme.activities;
+package com.checkyouout.explainme.neartoyou.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -34,7 +34,7 @@ import android.widget.Toast;
 import com.android.installreferrer.api.InstallReferrerClient;
 import com.android.installreferrer.api.InstallReferrerStateListener;
 import com.android.installreferrer.api.ReferrerDetails;
-import com.getsutisfact.requestme.escapewithme.R;
+import com.checkyouout.explainme.neartoyou.R;
 
 import java.io.BufferedReader;
 import java.io.File;

@@ -1,4 +1,4 @@
-package com.getsutisfact.requestme.escapewithme.activities;
+package com.checkyouout.explainme.neartoyou.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.getsutisfact.requestme.escapewithme.R;
+import com.checkyouout.explainme.neartoyou.R;
 
 public class ActivityGetMail extends AppCompatActivity {
 

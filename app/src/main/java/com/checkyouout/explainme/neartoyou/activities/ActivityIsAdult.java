@@ -1,9 +1,9 @@
-package com.getsutisfact.requestme.escapewithme.activities;
+package com.checkyouout.explainme.neartoyou.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.getsutisfact.requestme.escapewithme.R;
+import com.checkyouout.explainme.neartoyou.R;
 
 public class ActivityIsAdult extends AppCompatActivity {
 

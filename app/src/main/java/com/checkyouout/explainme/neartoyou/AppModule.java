@@ -1,4 +1,4 @@
-package com.getsutisfact.requestme.escapewithme;
+package com.checkyouout.explainme.neartoyou;
 
 import android.app.Application;
 import com.google.firebase.storage.FirebaseStorage;
