@@ -1,4 +1,4 @@
-package com.areyouwithme.getfoundoff.kissmeout;
+package com.gowithme.outoffget.findmeout;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

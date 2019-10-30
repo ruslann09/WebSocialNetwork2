@@ -1,4 +1,4 @@
-package com.areyouwithme.getfoundoff.kissmeout.activities;
+package com.gowithme.outoffget.findmeout.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.areyouwithme.getfoundoff.kissmeout.R;
+import com.gowithme.outoffget.findmeout.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

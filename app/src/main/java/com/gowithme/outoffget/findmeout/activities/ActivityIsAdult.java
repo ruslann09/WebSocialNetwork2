@@ -1,9 +1,9 @@
-package com.areyouwithme.getfoundoff.kissmeout.activities;
+package com.gowithme.outoffget.findmeout.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.areyouwithme.getfoundoff.kissmeout.R;
+import com.gowithme.outoffget.findmeout.R;
 
 public class ActivityIsAdult extends AppCompatActivity {
 

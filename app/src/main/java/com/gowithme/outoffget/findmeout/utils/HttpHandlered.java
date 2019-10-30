@@ -1,4 +1,4 @@
-package com.areyouwithme.getfoundoff.kissmeout.utils;
+package com.gowithme.outoffget.findmeout.utils;
 
 /**
  * Created by VETRI on 05-03-2017.

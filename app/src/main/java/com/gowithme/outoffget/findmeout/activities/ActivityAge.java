@@ -1,4 +1,4 @@
-package com.areyouwithme.getfoundoff.kissmeout.activities;
+package com.gowithme.outoffget.findmeout.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.areyouwithme.getfoundoff.kissmeout.R;
+import com.gowithme.outoffget.findmeout.R;
 
 public class ActivityAge extends AppCompatActivity {
 
