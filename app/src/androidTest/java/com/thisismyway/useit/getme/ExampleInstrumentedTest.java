@@ -1,4 +1,4 @@
-package com.gowithme.outoffget.findmeout;
+package com.thisismyway.useit.getme;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

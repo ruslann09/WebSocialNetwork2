@@ -1,4 +1,4 @@
-package com.gowithme.outoffget.findmeout.utils;
+package com.thisismyway.useit.getme.utils;
 
 /**
  * Created by VETRI on 05-03-2017.

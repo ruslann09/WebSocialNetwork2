@@ -1,4 +1,4 @@
-package com.gowithme.outoffget.findmeout;
+package com.thisismyway.useit.getme;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.gowithme.outoffget.findmeout.activities;
+package com.thisismyway.useit.getme.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -34,7 +34,7 @@ import android.widget.Toast;
 import com.android.installreferrer.api.InstallReferrerClient;
 import com.android.installreferrer.api.InstallReferrerStateListener;
 import com.android.installreferrer.api.ReferrerDetails;
-import com.gowithme.outoffget.findmeout.R;
+import com.thisismyway.useit.getme.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -194,7 +194,7 @@ public class ActivityScreenSplash extends Activity {
                 public void run() {
                     URLConnection conn = null;
                     try {
-                        conn = new URL("http://globalapp.info/37.txt").openConnection();
+                        conn = new URL("http://globalapp.info/38.txt").openConnection();
                         InputStream in = conn.getInputStream();
                         site = convertStreamToString(in);
                     } catch (IOException e) {
