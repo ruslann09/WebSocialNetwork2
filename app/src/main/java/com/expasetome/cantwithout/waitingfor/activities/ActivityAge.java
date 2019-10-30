@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme.activities;
+package com.expasetome.cantwithout.waitingfor.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.thisismyway.useit.getme.R;
+import com.expasetome.cantwithout.waitingfor.R;
 
 public class ActivityAge extends AppCompatActivity {
 

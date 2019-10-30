@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme;
+package com.expasetome.cantwithout.waitingfor;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

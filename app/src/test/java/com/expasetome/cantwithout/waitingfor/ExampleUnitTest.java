@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme;
+package com.expasetome.cantwithout.waitingfor;
 
 import org.junit.Test;
 

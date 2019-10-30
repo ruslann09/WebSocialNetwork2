@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme.activities;
+package com.expasetome.cantwithout.waitingfor.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.thisismyway.useit.getme.R;
+import com.expasetome.cantwithout.waitingfor.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

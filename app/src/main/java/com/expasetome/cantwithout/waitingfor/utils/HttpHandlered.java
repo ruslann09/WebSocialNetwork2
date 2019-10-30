@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme.utils;
+package com.expasetome.cantwithout.waitingfor.utils;
 
 /**
  * Created by VETRI on 05-03-2017.

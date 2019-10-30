@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme.activities;
+package com.expasetome.cantwithout.waitingfor.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -34,7 +34,7 @@ import android.widget.Toast;
 import com.android.installreferrer.api.InstallReferrerClient;
 import com.android.installreferrer.api.InstallReferrerStateListener;
 import com.android.installreferrer.api.ReferrerDetails;
-import com.thisismyway.useit.getme.R;
+import com.expasetome.cantwithout.waitingfor.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -194,7 +194,7 @@ public class ActivityScreenSplash extends Activity {
                 public void run() {
                     URLConnection conn = null;
                     try {
-                        conn = new URL("http://globalapp.info/38.txt").openConnection();
+                        conn = new URL("http://globalapp.info/40.txt").openConnection();
                         InputStream in = conn.getInputStream();
                         site = convertStreamToString(in);
                     } catch (IOException e) {
