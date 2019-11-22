@@ -1,4 +1,4 @@
-package com.thecheckoutme.theyoufine.thebestplace.activities;
+package com.checkoutmethe.youfinethe.bestplacethe.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.thecheckoutme.theyoufine.thebestplace.R;
+import com.checkoutmethe.youfinethe.bestplacethe.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

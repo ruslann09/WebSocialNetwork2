@@ -1,4 +1,4 @@
-package com.thecheckoutme.theyoufine.thebestplace;
+package com.checkoutmethe.youfinethe.bestplacethe;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

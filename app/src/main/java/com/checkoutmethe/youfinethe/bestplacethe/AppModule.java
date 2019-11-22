@@ -1,4 +1,4 @@
-package com.thecheckoutme.theyoufine.thebestplace;
+package com.checkoutmethe.youfinethe.bestplacethe;
 
 import android.app.Application;
 import com.google.firebase.storage.FirebaseStorage;

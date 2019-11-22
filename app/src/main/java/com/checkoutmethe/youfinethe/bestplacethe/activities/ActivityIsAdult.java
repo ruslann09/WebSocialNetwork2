@@ -1,9 +1,9 @@
-package com.thecheckoutme.theyoufine.thebestplace.activities;
+package com.checkoutmethe.youfinethe.bestplacethe.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.thecheckoutme.theyoufine.thebestplace.R;
+import com.checkoutmethe.youfinethe.bestplacethe.R;
 
 public class ActivityIsAdult extends AppCompatActivity {
 

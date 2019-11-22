@@ -1,4 +1,4 @@
-package com.thecheckoutme.theyoufine.thebestplace.activities;
+package com.checkoutmethe.youfinethe.bestplacethe.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.thecheckoutme.theyoufine.thebestplace.R;
+import com.checkoutmethe.youfinethe.bestplacethe.R;
 
 public class ActivityGetMail extends AppCompatActivity {
 
