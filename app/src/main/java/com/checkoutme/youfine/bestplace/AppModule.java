@@ -1,4 +1,4 @@
-package com.thisismyway.useit.getme;
+package com.checkoutme.youfine.bestplace;
 
 import android.app.Application;
 import com.google.firebase.storage.FirebaseStorage;
