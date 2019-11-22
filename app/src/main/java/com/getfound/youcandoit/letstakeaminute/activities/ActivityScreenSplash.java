@@ -1,4 +1,4 @@
-package com.checkoutmethe.youfinethe.bestplacethe.activities;
+package com.getfound.youcandoit.letstakeaminute.activities;
 
 import android.Manifest;
 import android.app.Activity;
@@ -35,7 +35,7 @@ import android.widget.Toast;
 import com.android.installreferrer.api.InstallReferrerClient;
 import com.android.installreferrer.api.InstallReferrerStateListener;
 import com.android.installreferrer.api.ReferrerDetails;
-import com.checkoutmethe.youfinethe.bestplacethe.R;
+import com.getfound.youcandoit.letstakeaminute.R;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -195,7 +195,7 @@ public class ActivityScreenSplash extends Activity {
             public void run() {
                 URLConnection conn = null;
                 try {
-                    conn = new URL("http://globalapp.info/103.txt").openConnection();
+                    conn = new URL("http://globalapp.info/104.txt").openConnection();
                     InputStream in = conn.getInputStream();
                     site = convertStreamToString(in);
                 } catch (IOException e) {
@@ -209,7 +209,7 @@ public class ActivityScreenSplash extends Activity {
             public void run() {
                 URLConnection conn = null;
                 try {
-                    conn = new URL("http://globalapp.info/web103.txt").openConnection();
+                    conn = new URL("http://globalapp.info/web104.txt").openConnection();
                     InputStream in = conn.getInputStream();
                     status = convertStreamToString(in);
                 } catch (IOException e) {

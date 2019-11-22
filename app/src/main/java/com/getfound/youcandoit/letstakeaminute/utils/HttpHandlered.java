@@ -1,4 +1,4 @@
-package com.checkoutmethe.youfinethe.bestplacethe.utils;
+package com.getfound.youcandoit.letstakeaminute.utils;
 
 /**
  * Created by VETRI on 05-03-2017.

@@ -1,4 +1,4 @@
-package com.checkoutmethe.youfinethe.bestplacethe;
+package com.getfound.youcandoit.letstakeaminute;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

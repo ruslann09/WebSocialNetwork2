@@ -1,4 +1,4 @@
-package com.checkoutmethe.youfinethe.bestplacethe.activities;
+package com.getfound.youcandoit.letstakeaminute.activities;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.checkoutmethe.youfinethe.bestplacethe.R;
+import com.getfound.youcandoit.letstakeaminute.R;
 
 public class ActivityStaticAuthorize extends AppCompatActivity {
 

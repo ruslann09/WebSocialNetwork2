@@ -1,4 +1,4 @@
-package com.checkoutmethe.youfinethe.bestplacethe.activities;
+package com.getfound.youcandoit.letstakeaminute.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.checkoutmethe.youfinethe.bestplacethe.R;
+import com.getfound.youcandoit.letstakeaminute.R;
 
 public class ActivityAge extends AppCompatActivity {
 

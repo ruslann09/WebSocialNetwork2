@@ -1,9 +1,9 @@
-package com.checkoutmethe.youfinethe.bestplacethe.activities;
+package com.getfound.youcandoit.letstakeaminute.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.checkoutmethe.youfinethe.bestplacethe.R;
+import com.getfound.youcandoit.letstakeaminute.R;
 
 public class ActivityIsAdult extends AppCompatActivity {
 
