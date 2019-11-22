@@ -1,4 +1,4 @@
-package com.checkoutme.youfine.bestplace.activities;
+package com.thecheckoutme.theyoufine.thebestplace.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.checkoutme.youfine.bestplace.R;
+import com.thecheckoutme.theyoufine.thebestplace.R;
 
 public class ActivityAge extends AppCompatActivity {
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.checkoutme.youfine.bestplace">
+    package="com.thecheckoutme.theyoufine.thebestplace">
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.CAMERA2" />
@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:name="com.checkoutme.youfine.bestplace.AppModule"
+        android:name="com.thecheckoutme.theyoufine.thebestplace.AppModule"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
@@ -19,11 +19,11 @@
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.checkoutme.youfine.bestplace.activities.ActivityIsAdult"></activity>
-        <activity android:name="com.checkoutme.youfine.bestplace.activities.ActivityAge" />
-        <activity android:name="com.checkoutme.youfine.bestplace.activities.ActivityGetMail" />
-        <activity android:name="com.checkoutme.youfine.bestplace.activities.ActivityStaticAuthorize" />
-        <activity android:name="com.checkoutme.youfine.bestplace.activities.ActivityScreenSplash">
+        <activity android:name="com.thecheckoutme.theyoufine.thebestplace.activities.ActivityIsAdult"></activity>
+        <activity android:name="com.thecheckoutme.theyoufine.thebestplace.activities.ActivityAge" />
+        <activity android:name="com.thecheckoutme.theyoufine.thebestplace.activities.ActivityGetMail" />
+        <activity android:name="com.thecheckoutme.theyoufine.thebestplace.activities.ActivityStaticAuthorize" />
+        <activity android:name="com.thecheckoutme.theyoufine.thebestplace.activities.ActivityScreenSplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

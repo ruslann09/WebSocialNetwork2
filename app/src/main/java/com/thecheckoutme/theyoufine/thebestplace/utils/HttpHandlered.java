@@ -1,4 +1,4 @@
-package com.checkoutme.youfine.bestplace.utils;
+package com.thecheckoutme.theyoufine.thebestplace.utils;
 
 /**
  * Created by VETRI on 05-03-2017.
